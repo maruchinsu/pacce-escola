@@ -1,0 +1,126 @@
+.navbar {
+	padding: 20px 0 20px 12px;
+}
+
+div.topnav {
+	padding: 0;
+}
+
+.dropdown-menu {
+	border-radius: 0px;
+}
+
+a.crie-celula {
+	margin-right: 20px;
+	width: 150px;
+}
+
+.full-width { 
+	padding-left: 0; 
+	padding-right: 0;
+}
+
+#home {
+	height: 100vh;
+	background-color: gainsboro;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+
+}
+
+.apresentacao {
+	border: 1px solid red;
+	padding: 20px;
+}
+
+.objetivos {
+	padding: 0 40px;
+}
+
+.objetivo-title {
+	padding: 40px 0 40px 0;
+}
+
+.objetivo-item {
+	border: 1px solid blue;
+	padding-bottom: 40px;
+}
+
+.objetivo-img {
+	width: 100px;
+}
+
+.objetivo-desc {
+	margin: 0 40px 0 40px;
+	padding-top: 20px;
+}
+
+#aprendizagem-cooperativa {
+	background-color: lightgray;
+	padding: 100px 0;
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+.titulo {
+	padding-bottom: 30px;
+}
+
+.ac-desc {
+	text-align: left;
+	padding: 0 30px;
+}
+
+/* timeline */
+.timeline-ac {
+	background-color: silver;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+    margin-right: 1.5rem; 
+}
+
+ /* Timeline vertical line */
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+li.timeline-item::before {
+    content: ' ';
+    background: #ddd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+}
