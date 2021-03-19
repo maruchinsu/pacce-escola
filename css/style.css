@@ -1,5 +1,26 @@
+@font-face {
+    font-family: "Indie Flower";
+    src: url("../fonts/IndieFlower-Regular.woff");
+}
+
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff");
+}
+
+body {
+    font-family: "Lato";
+}
+
 .navbar {
 	padding: 20px 0 20px 12px;
+    background-color: #D9D79C;
+}
+
+
+
+.nav-link, .dropdown-item {
+    color: #705F47;
 }
 
 div.topnav {
@@ -7,12 +28,16 @@ div.topnav {
 }
 
 .dropdown-menu {
-	border-radius: 0px;
+	border: none;
+    background-color: #D9D79C; /* colocar a mesma cor da nav */
+}
+
+.dropdown-item:hover {
+    background-color: unset;
 }
 
 a.crie-celula {
 	margin-right: 20px;
-	width: 150px;
 }
 
 .full-width { 
@@ -22,28 +47,34 @@ a.crie-celula {
 
 #home {
 	height: 100vh;
-	background-color: gainsboro;
+	/*background-image: url("../img/main-bg.png");*/
 	display: flex;
   	align-items: center;
   	justify-content: center;
 
 }
 
+.main-title {
+    padding-bottom: 25px;
+    font-family: "Indie Flower";
+    font-weight: bold;
+}
+
 .apresentacao {
-	border: 1px solid red;
 	padding: 20px;
 }
 
-.objetivos {
-	padding: 0 40px;
+#objetivos {
+	background-color: white;
 }
 
 .objetivo-title {
 	padding: 40px 0 40px 0;
+    font-family: "Indie Flower";
+    font-weight: bold;
 }
 
 .objetivo-item {
-	border: 1px solid blue;
 	padding-bottom: 40px;
 }
 
@@ -56,15 +87,23 @@ a.crie-celula {
 	padding-top: 20px;
 }
 
-#aprendizagem-cooperativa {
-	background-color: lightgray;
-	padding: 100px 0;
-	display: flex;
-  	align-items: center;
-  	justify-content: center;
+.secao {
+    padding: 50px 0;
+    background-color: lightgray;
 }
+
+#aprendizagem-cooperativa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .titulo {
-	padding-bottom: 30px;
+	padding-bottom: 50px;
+    text-align: center;
+    margin:auto;
+    font-family: "Indie Flower";
+    font-weight: bold;
 }
 
 .ac-desc {
@@ -101,6 +140,11 @@ li.timeline-item {
     margin: 20px 0;
 }
 
+li.timeline-item h2, .pilar h5 {
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
 /* Timeline item arrow */
 .timeline-arrow {
     border-top: 0.5rem solid transparent;
@@ -124,3 +168,110 @@ li.timeline-item::before {
     height: 14px;
     z-index: 400;
 }
+
+.pilares {
+    margin-top: 30px;
+}
+
+.pilar, .pilar-pacce {
+    margin: 20px 0;
+}
+
+.convite-area {
+    border: 1px solid teal;
+    margin: 30px 0;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+#celulas {
+    background-color: white;
+}
+
+.cell-card {
+    margin: 20px 0;
+}
+
+.cell-links {
+    display: block;
+    width: 20rem;
+    line-height: 4rem;
+    margin: 20px 0;
+    text-anchor: middle;
+    letter-spacing: 2px;
+}
+
+.cell-link-area {
+    margin-top: 30px;
+}
+/** {
+    border: 1px solid red;
+}*/
+
+footer {
+    padding: 30px 0;
+    background-color: #0C486C;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.85em;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+footer h5 {
+    color: white;
+}
+
+footer span img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+.membro-equipe {
+    text-align: left;
+    padding: 10px;
+    margin: 15px;
+    background-color: lightblue;
+}
+
+.membro-equipe img {
+    width: 90px;
+    border: 5px solid silver;
+}
+
+.membro-info {
+    padding-left: 10px;
+}
+
+.cargo {
+    font-size: 0.85em;
+}
+
+.depoimentos {
+    padding: 20px;
+}
+
+.depo-info .nome {
+    color: #0C486C;
+}
+
+.depoimento {
+    padding: 10px;
+    border-width: 2px;
+}
+
+.depoimento .card-body {
+    border: 2px dashed #0C486C;
+    border-radius: 4px;
+}
+
+

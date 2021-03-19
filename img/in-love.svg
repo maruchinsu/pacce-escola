@@ -1,2 +1,88 @@
-<?xml version="1.0"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512"><g id="outline"><path d="M315.947,194.464,304,206.6l-11.946-12.133A35.068,35.068,0,0,0,232,219.577a35.567,35.567,0,0,0,10.253,25.113L298.3,301.613a8,8,0,0,0,11.4,0l56.047-56.923a35.668,35.668,0,0,0-24.9-60.69A35.174,35.174,0,0,0,315.947,194.464ZM360,219.577a19.931,19.931,0,0,1-5.653,13.887L304,284.6l-50.347-51.134A19.931,19.931,0,0,1,248,219.577,19.39,19.39,0,0,1,267.153,200a18.825,18.825,0,0,1,13.5,5.69L298.3,223.613a8,8,0,0,0,11.4,0l17.649-17.924a18.824,18.824,0,0,1,13.5-5.689A19.39,19.39,0,0,1,360,219.577Z"/><path d="M260.526,88A147.286,147.286,0,0,0,120.621,188.838L94.554,267.043A22,22,0,0,0,115.424,296H136v72a32.036,32.036,0,0,0,32,32h48v80a8,8,0,0,0,8,8H400a8,8,0,0,0,8-8V235.474C408,154.156,341.844,88,260.526,88ZM392,472H232V392a8,8,0,0,0-8-8H168a16.019,16.019,0,0,1-16-16V344h3.155a61.775,61.775,0,0,0,51.5-27.562,8,8,0,0,0-13.312-8.876A45.807,45.807,0,0,1,155.155,328H152V288a8,8,0,0,0-8-8H115.424a6,6,0,0,1-5.692-7.9L135.8,193.9A131.3,131.3,0,0,1,260.526,104C333.021,104,392,162.979,392,235.474Z"/><path d="M264,64V32a8,8,0,0,0-16,0V64a8,8,0,0,0,16,0Z"/><path d="M142.863,118.863a8,8,0,0,0,5.658-13.657L125.893,82.578a8,8,0,0,0-11.315,11.315l22.628,22.628A7.979,7.979,0,0,0,142.863,118.863Z"/><path d="M96,224a8,8,0,0,0-8-8H64a8,8,0,0,0,0,16H88A8,8,0,0,0,96,224Z"/><path d="M448,216H424a8,8,0,0,0,0,16h24a8,8,0,0,0,0-16Z"/><path d="M374.794,116.521l22.628-22.628a8,8,0,0,0-11.315-11.315l-22.628,22.628a8,8,0,0,0,11.315,11.315Z"/><path d="M197.47,224.41a68.319,68.319,0,0,1-42.94,0,8,8,0,0,0-5.06,15.18,84.421,84.421,0,0,0,53.06,0,8,8,0,0,0-5.06-15.18Z"/></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="512"
+   viewBox="0 0 512 512"
+   width="512"
+   version="1.1"
+   id="svg96"
+   sodipodi:docname="in-love.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata102">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs100" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview98"
+     showgrid="false"
+     inkscape:zoom="3.2260381"
+     inkscape:cx="237.9342"
+     inkscape:cy="433.40142"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="flat" />
+  <g
+     id="flat">
+    <path
+       d="m179.411 87.117a48.58 48.58 0 0 1 38.864 19.432l12.091 16.122 12.092-16.122a48.58 48.58 0 0 1 38.864-19.432 48.58 48.58 0 0 1 47.13 36.8 59.417 59.417 0 0 1 -17.494 58.209l-80.592 73.874-80.592-73.876a59.416 59.416 0 0 1 -17.493-58.209 48.58 48.58 0 0 1 47.13-36.798z"
+       fill="#cb2527"
+       id="path57" />
+    <path
+       sodipodi:nodetypes="cccssccccccccc"
+       d="M 114.505,216 68.674844,319.07007 C 62.982925,334.68017 83.392612,333.45624 90.505,328 v 72 c 0,13.25483 10.74517,24 24,24 h 48 v 55.84554 c -0.35588,11.4865 2.71426,7.5345 10.46258,8.15446 h 135.77025 c -6.06998,-0.13014 6.05419,1.7504 5.76643,-8.47779 L 314.505,376 l -56,-56 -8,-104 z"
+       fill="#f6bb92"
+       id="path59" />
+    <path
+       d="m250.505 216h96a277.849 277.849 0 0 1 -27.955 151.911l-4.045 8.089-64-64z"
+       fill="#915628"
+       id="path61" />
+    <path
+       sodipodi:nodetypes="ccccccc"
+       d="M 346.505,216 400.26639,36.107561 403.773,24.374 418,35.666 c 32.1674,25.533304 45.5493,68.07816 33.79,107.428 -11.75932,39.35036 -46.29173,67.57668 -87.195,71.272 z"
+       fill="#915628"
+       id="path63" />
+    <g
+       fill="#7a4922"
+       id="g73">
+      <circle
+         cx="162.505"
+         cy="264"
+         r="16"
+         id="circle65" />
+    </g>
+    <g
+       fill="#ffc864"
+       id="g91" />
+    <path
+       d="m162.572 424h21.428l32-24-40 64h-13.428z"
+       fill="#e6af89"
+       id="path93" />
+  </g>
+</svg>
