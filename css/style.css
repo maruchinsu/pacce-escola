@@ -22,7 +22,7 @@ body {
 
 
 .nav-link, .dropdown-item {
-    color: #705F47;
+    color: #0C486C;
 }
 
 div.topnav {
@@ -34,13 +34,16 @@ div.topnav {
     background-color: #fff; /* colocar a mesma cor da nav */
 }
 
-.dropdown-item:hover {
+.dropdown-item:hover, .nav-link:hover {
     background-color: unset;
     text-decoration: underline;
+    color: #0C486C;
 }
 
 a.crie-celula {
 	margin-right: 20px;
+    background-color: #0C486C;
+    color: white;
 }
 
 .full-width { 
@@ -211,8 +214,9 @@ li.timeline-item::before {
     text-decoration: none;
 }
 
-.convite-area a:hover {
+.convite-area a:hover, .cell-links:hover, .crie-celula:hover {
     background-color: #0E5581;
+    color: white;
 }
 
 p {
@@ -231,14 +235,32 @@ p {
     margin: 20px 0;
     text-anchor: middle;
     letter-spacing: 2px;
+    color: white;
+    background-color: #0C486C; 
 }
 
 .cell-link-area {
     margin-top: 30px;
 }
-/** {
-    border: 1px solid red;
-}*/
+
+.passo {
+    margin-bottom: 30px;
+}
+
+.passo-info {
+    padding: 0 7%;
+}
+
+.sub-titulo {
+    font-family: "Indie Flower";
+    font-weight: bolder;
+    color: #0C486C;
+}
+
+.guia-celula img {
+    width: 300px;
+    margin: 0 5%;
+}
 
 footer {
     padding: 30px 0;
